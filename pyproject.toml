@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "solana-py"
+version = "0.1.0"
+description = ""
+authors = ["Park donghyeon <emma415g@gmail.com>"]
+readme = "README.md"
+packages = [{include = "solana_py"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+base58 = "^2.1.1"
+solana = "^0.27.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
